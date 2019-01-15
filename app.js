@@ -1,16 +1,19 @@
 let name = 'Angel';
 const stateNumber = 50;
+
 var val = 5 + 4;
+
+// Displays an alert that says Hello World!
 function sayHello() {
   alert('Hello World!')
 }
 sayHello()
 
-function checkAge(age, name) {
-  If(age < 21); {
+function checkAge(name, age) {
+  if(age < 21) {
     alert("Sorry, " + name + " you aren't old enough to view this page!")
   }
-
+}
   let people = [
 
     {
@@ -30,3 +33,11 @@ function checkAge(age, name) {
       age: 17
     }
   ];
+  for (let i=0; i < people.length; i++){    
+    checkAge(people[i].name,
+      people[i].age)
+  }
+  let vegetables = ['broccoli', 'carrots', 'squash', 'green-beans']
+  for (let j=0; j < vegetables.length; j++){
+    console.log (vegetables[j])
+  }
