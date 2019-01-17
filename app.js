@@ -41,3 +41,15 @@ function checkAge(name, age) {
   for (let j=0; j < vegetables.length; j++){
     console.log (vegetables[j])
   }
+  function getLength(word){
+    return (word.length)
+  }
+  let a = getLength;
+  if (a % 2){
+    console.log ("The world is nice and even!")    
+  } else {
+    console.log ("The world is an odd place!")
+  }
+
+  getLength("Hello World")
+
